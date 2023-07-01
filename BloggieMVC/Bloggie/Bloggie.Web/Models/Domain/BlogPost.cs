@@ -2,7 +2,7 @@
 {
     public class BlogPost
     {
-        public Guid Id { get; set; } //Guid = uniqueidentifier data type
+        public Guid Id { get; set; } //Guid - uniqueidentifier data type
         public string Heading { get; set; }
         public string PageTitle { get; set; }
         public string Content { get; set; }
