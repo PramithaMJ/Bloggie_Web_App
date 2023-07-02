@@ -10,6 +10,8 @@ namespace Bloggie.Web.Data
         {
         }
 
+        //Collection of all entities in the context.
+        //DbSet objects are created from a DbContext using the DbContext.Set
         public DbSet<BlogPost> BlogPosts { get; set; } //Create table
 
         public DbSet<Tag> Tags { get; set; } // Create table
